@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="img">
+            <img src="./img/Tesla1.jpg">
+        </div>
+        <div class="box1">
+            <div class="text_km">
+                <h2>Запас хода</h2>
+                <h5> <b>750</b>   км</h5>
+            </div>
+            <div class="text_narx">
+                <h2>Цена</h2>
+                <h5>$89, 990</h5>
+            </div>
+        </div>
+        <div class="biggest_box">
+            <div class="box_speed">
+                <div class="text1">
+                    <h2>Скорость автомобиля</h2>
+                    <h5> <b>60</b>  км/ч</h5>
+                </div>
+                <div class="btns1">
+                    <button id="plus_speed"><img src="./img/up.png" alt=""></button>
+                    <button id="minus_speed"><img src="./img/down.png" alt=""></button>
+                </div>
+            </div>
+            <div class="box_temperage">
+                <div class="text2">
+                    <h2>Температура за окнами</h2>
+                    <h5>  <b>20</b> °</h5>
+                </div>
+                <div class="btns2">
+                    <button id="plus_temperage"><img src="./img/up.png" alt=""></button>
+                    <button id="minus_temperage"><img src="./img/down.png" alt=""></button>
+                </div>
+            </div>
+            <div class="box_disk">
+                <div class="text3">
+                    <h2>Диски</h2>
+                    <h5>19</h5>
+                </div>
+                <div class="btns3">
+                    <button id="plus_disk"><img src="./img/up.png" alt=""></button>
+                    <button id="minus_disk"><img src="./img/down.png" alt=""></button>
+                </div>
+            </div>
+            <div class="box_condition">
+                <div class="text4">
+                    <h2 id="cont" >Кондиционер</h2>
+                </div>
+                <label class="switch" >
+                    <input type="checkbox"id="condition" >
+                    <span class="slider round"></span>
+                </label>
+            </div>
+            <div class="box_longrange">
+                <div class="text5">
+                    <h2>Версия Long Range</h2>
+                </div>
+
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+            <div class="box_camera">
+                <div class="text6">
+                    <h2>Вид салона</h2>
+                </div>
+                <label class="switch" id="btn">
+                    <input type="checkbox">
+                   
+                    <span class="slider round"></span>
+                </label>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
